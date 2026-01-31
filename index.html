@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3099 - Colectivo de artistas uruguayos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+            <img src="assets/logo/3099-logo-nav.png" alt="3099 FAMILIA" class="nav-logo">
+        </a>
+            
+            <div class="nav-links">
+                <a href="#inicio" class="nav-item active">Inicio</a>
+                <a href="#artistas" class="nav-item">Artistas</a>
+                <!--  <a href="#lanzamientos" class="nav-item">Últimos Lanzamientos</a>-->
+                <!-- <a href="#proximo" class="nav-item">Próximo Lanzamiento</a>-->
+                <a href="#playlist" class="nav-item">Playlist</a>
+                <a href="#merch" class="nav-item">Merch</a>
+            </div>
+            
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-question">
+                <span class="question-text">¿Qué es</span>
+                <div class="logo-container">
+                    <img src="assets/images/3099-logo.png" alt="3099" class="inline-logo">
+                </div>
+                <span class="question-mark">?</span>
+            </div>
+            
+            <h1 class="hero-title">FAMILIA.</h1>
+            
+            <div class="hero-subtitle">
+                <p>Colectivo de artistas uruguayos</p>
+            </div>
+            
+            <div class="hero-description">
+                <p>6 artistas, una sola familia. Descubri su música, sus proyectos y su esencia.</p>
+            </div>
+            
+            <a href="#artistas" class="hero-button">
+                ↓ 
+            </a>
+        </div>
+    </section>
+
+    <section id="artistas" class="artists-section">
+        <div class="artist-warning-tape">
+            <div class="tape-container">
+                <div class="tape-text-line">
+                    <span class="tape-text">ARTISTAS</span>
+                    <span class="tape-text">ARTISTAS</span>
+                    <span class="tape-text">ARTISTAS</span>
+                    <span class="tape-text">ARTISTAS</span>
+                    <span class="tape-text">ARTISTAS</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-header">
+            <p>Conoce a cada uno de los artistas del colectivo</p>
+        </div>
+        
+        <div class="artists-grid" id="artistsGrid">
+        </div>
+    </section>
+
+    <div id="artistDetail" class="artist-detail">
+    </div>
+
+    <section id="playlist" class="playlist-section">
+        <div class="section-tape playlist-tape">
+            <div class="tape-container">
+                <div class="tape-text-line">
+                    <span class="tape-text">PLAYLIST</span>
+                    <span class="tape-text">PLAYLIST</span>
+                    <span class="tape-text">PLAYLIST</span>
+                    <span class="tape-text">PLAYLIST</span>
+                    <span class="tape-text">PLAYLIST</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-content">
+            <div class="section-header">
+                <h2>Playlist Oficial</h2>
+                <p>Todos los temas de 3099 en una sola playlist</p>
+            </div>
+            <div class="playlist-container">
+                <div class="spotify-embed">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0QQEbXdfT6d8aaco6HAfCx?utm_source=generator" width="100%" height="380" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="merch" class="merch-section">
+        <div class="section-tape merch-tape">
+            <div class="tape-container">
+                <div class="tape-text-line">
+                    <span class="tape-text">MERCH</span>
+                    <span class="tape-text">MERCH</span>
+                    <span class="tape-text">MERCH</span>
+                    <span class="tape-text">MERCH</span>
+                    <span class="tape-text">MERCH</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-content">
+            <div class="section-header">
+                <h2>Merch Oficial</h2>
+                <p>Próximamente...</p>
+            </div>
+            <!-- Productos futuro -->
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <p class="footer-tag"></p>
+            </div>
+            <p class="footer-description">3099</p>
+                <div class="footer-social">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/3099tv/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/@3099tv" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@3099raw" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            <p class="footer-copyright">© 2026 3099. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
