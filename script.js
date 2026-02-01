@@ -6,7 +6,7 @@ const artistsData = [
         image: "assets/images/valuto.jpg",
         bio: "",
         lastReleases: [
-            { title: "Sin Título – Single", date: "2026", spotifyId: "0UKQEI2oLvO6sVxKuAKHI3", 
+            { title: "Sin Título", date: "2026", spotifyId: "0UKQEI2oLvO6sVxKuAKHI3", 
                 link: "https://open.spotify.com/intl-es/track/0UKQEI2oLvO6sVxKuAKHI3",
                 embedUrl: "https://open.spotify.com/embed/track/0UKQEI2oLvO6sVxKuAKHI3" 
              },
@@ -444,7 +444,6 @@ document.addEventListener('DOMContentLoaded', function() {
     navItems.forEach(item => {
         item.addEventListener('click', () => {
             navLinks.classList.remove('active');
-            // Restaurar ícono de hamburguesa
             const icon = menuToggle.querySelector('i');
             if (icon) {
                 icon.classList.remove('fa-times');
@@ -453,14 +452,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Cerrar menú al hacer clic fuera
     document.addEventListener('click', function(event) {
         const isClickInsideNav = navLinks.contains(event.target);
         const isClickOnToggle = menuToggle.contains(event.target);
         
         if (!isClickInsideNav && !isClickOnToggle && navLinks.classList.contains('active')) {
             navLinks.classList.remove('active');
-            // Restaurar ícono
             const icon = menuToggle.querySelector('i');
             if (icon) {
                 icon.classList.remove('fa-times');
