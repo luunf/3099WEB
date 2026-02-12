@@ -56,7 +56,7 @@ const artistsData = [
             { title: "01 Gata ft Elias Glz, sArah y Wave", date: "2025", link: "#" }
         ],
 
-        playlistEmbed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7pTwuTtRjdA2KlXVcnRIfF?si=87dfa7fb56d049d3?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+        playlistEmbed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0w2N5s?si=1b4d98ca51b14dcb?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
         social: {
             instagram: "https://www.instagram.com/galo.3099_/",
             youtube: "https://www.youtube.com/@GALO3099",
